@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App7.P1">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" >
+            <!-- Верхний ряд -->
+            <Button Text="перейти" Clicked="Button_Clicked"></Button>
+            <StackLayout Orientation="Horizontal" Spacing="0">
+                <BoxView Color="Yellow" WidthRequest="120" HeightRequest="200" />
+                <BoxView Color="Red" WidthRequest="120" HeightRequest="150" />
+                <BoxView Color="Green" WidthRequest="120" HeightRequest="150" />
+            </StackLayout>
+
+            <!-- Черная полоса -->
+            <BoxView Color="Black" HeightRequest="200" />
+
+            <!-- Средний ряд -->
+            <StackLayout Orientation="Horizontal" Spacing="0">
+                <BoxView Color="Blue" WidthRequest="180" HeightRequest="200" />
+                <BoxView Color="LightBlue" WidthRequest="180" HeightRequest="200" />
+            </StackLayout >
+
+            <!-- Нижний ряд -->
+            <BoxView Color="Red" HeightRequest="200" />
+           
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
